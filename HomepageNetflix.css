@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(NBg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.container {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.netflix-navbar {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.netflix-navbar-right {
+
+    width: max-content;
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    right: 12%;
+}
+
+.netflix-language {
+    background: transparent;
+    width: 126px;
+    height: 32px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    box-shadow: inset 0 0 25px black;
+    border-radius: 4px;
+}
+
+#netflix-signinbtn {
+    margin-left: 5px;
+    width: 78.91px;
+    height: 32px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #E50914;
+    font-weight: bolder;
+    color: white;
+    padding: 4px 16px;
+
+}
+
+.path {
+    height: 100px;
+    width: 150px;
+    position: relative;
+    left: 170px;
+    top: 5%;
+}
+
+.netflix-center-content {
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.netflix-content-header {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.netflix-content-para,
+.netflix-content-para1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.netflix-form-validate{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.netflix-form-email {
+    height: 56px;
+    width: 371px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    padding-left: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: solid 1px rgb(151, 152, 153);
+    box-shadow: inset 0 0 50px 20px rgb(34, 34, 34);
+    color: white;
+}
+.netflix-form-btn {
+    height: 62px;
+    width: 201px;
+    background-color: #E50914;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 116px;
+}
+
+.netflix-form-btn:hover {
+    background-color: red;
+}
